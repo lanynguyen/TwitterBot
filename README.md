@@ -2,7 +2,7 @@
 
 In this assignment, you will learn how to read tweets from CSV files into a program, build your own machine learning model, and create an AI that generates (somewhat) realistic tweets!
 
-+ *FileLineIterator.java - This class is a wrapper around the Java I/O class BufferedReader (see lecture slides here) that provides a simple way to work with file data line-by-line. By writing this class, you are creating a simple, nifty file reading utility for yourself.
++ FileLineIterator.java - This class is a wrapper around the Java I/O class BufferedReader that provides a simple way to work with file data line-by-line. By writing this class, you are creating a simple, nifty file reading utility for yourself.
 
 + *TweetParser.java - This class reads in tweet data from a file, and then cleans, filters and formats the data to improve the quality of the training data. Its interface also makes it easy for you to add that cleaned data to the Markov Chain.
 
